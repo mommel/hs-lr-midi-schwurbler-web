@@ -1,0 +1,13 @@
+.. _exhale_typedef__rotary_controller_8h_1aa0327df0b7a0a98d6f57e3dc43c5b432:
+
+Typedef MidiValueChangeCallbackHandler
+======================================
+
+- Defined in :ref:`file_include_RotaryController.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: MidiValueChangeCallbackHandler

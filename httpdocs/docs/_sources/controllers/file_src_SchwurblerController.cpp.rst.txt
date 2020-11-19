@@ -1,0 +1,63 @@
+
+.. _file_src_SchwurblerController.cpp:
+
+File SchwurblerController.cpp
+=============================
+
+|exhale_lsh| :ref:`Parent directory <dir_src>` (``src``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+:ref:`exhale_class_class_schwurbler_controller` - Main config. 
+
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``src/SchwurblerController.cpp``)
+---------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_src_SchwurblerController.cpp.rst
+
+
+
+Detailed Description
+--------------------
+
+Mommel (mommel.devOgmail.com) 
+
+1.0.3 
+
+2020-10-14
+
+Copyright (c) 2020 
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``SchwurblerController.h`` (:ref:`file_include_SchwurblerController.h`)
+
+
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_schwurbler_controller`
+

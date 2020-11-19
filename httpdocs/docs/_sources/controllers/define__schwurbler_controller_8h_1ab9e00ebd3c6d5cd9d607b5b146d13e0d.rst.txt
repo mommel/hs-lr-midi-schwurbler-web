@@ -1,0 +1,13 @@
+.. _exhale_define__schwurbler_controller_8h_1ab9e00ebd3c6d5cd9d607b5b146d13e0d:
+
+Define Schwurbler_DEF_ButtonController_Amount
+=============================================
+
+- Defined in :ref:`file_include_SchwurblerController.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: Schwurbler_DEF_ButtonController_Amount

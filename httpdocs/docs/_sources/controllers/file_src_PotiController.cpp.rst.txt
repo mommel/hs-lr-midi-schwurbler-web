@@ -1,0 +1,47 @@
+
+.. _file_src_PotiController.cpp:
+
+File PotiController.cpp
+=======================
+
+|exhale_lsh| :ref:`Parent directory <dir_src>` (``src``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``src/PotiController.cpp``)
+---------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_src_PotiController.cpp.rst
+
+
+
+Detailed Description
+--------------------
+
+
+
+- Version: Schwurbler - :ref:`exhale_class_class_poti_controller` * Date: Oct 14 2020 * Name: Manuel Braun * 
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``PotiController.h`` (:ref:`file_include_PotiController.h`)
+
+
+
+
+

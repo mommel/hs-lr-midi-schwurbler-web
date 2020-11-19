@@ -1,0 +1,13 @@
+.. _exhale_define__rotary_controller_8h_1a5c1198886b719d81d0d93e061b1db204:
+
+Define Schwurbler_DEF_RotaryEncoderController_Active
+====================================================
+
+- Defined in :ref:`file_include_RotaryController.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: Schwurbler_DEF_RotaryEncoderController_Active

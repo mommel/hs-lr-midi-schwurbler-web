@@ -1,0 +1,13 @@
+.. _exhale_typedef__button_controller_8h_1a2a9262c42308533cc42d51a1e1f6cf7f:
+
+Typedef MidiTriggerCallbackHandler
+==================================
+
+- Defined in :ref:`file_include_ButtonController.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: MidiTriggerCallbackHandler

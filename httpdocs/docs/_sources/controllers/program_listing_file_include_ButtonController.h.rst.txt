@@ -1,0 +1,60 @@
+
+.. _program_listing_file_include_ButtonController.h:
+
+Program Listing for File ButtonController.h
+===========================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_include_ButtonController.h>` (``include/ButtonController.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #pragma once
+   #include <SchwurblerController.h> // Definitionsheader
+   #include <Bounce2.h>  // Dependent library header
+   
+   #ifndef ARDUINO
+   #include "Arduino.h" // Arduino Header
+   #endif // ARDUINO
+   
+   // typedef struct Bounce SchwurblerButton;
+   
+   typedef void (*MidiTriggerCallbackHandler)(int, bool);
+   
+   class ButtonController {
+    public:
+     ButtonController() {
+       for (int i = 0; i <= kAmount; i++) {
+         this->buttons[i] = Bounce(this->pins[i], this->kBounceTime);
+       }
+     }
+   
+     ~ButtonController() {
+       #ifndef Schwurbler_DEF_ButtonController_Pins
+       delete[] this->pins;
+       #endif // Schwurbler_DEF_ButtonController_Pins
+       #ifndef Schwurbler_DEF_ButtonController_Keys
+       delete[] this->midiKeys;
+       #endif // Schwurbler_DEF_ButtonController_Keys
+     }
+   
+    private:
+     const uint8_t kAmount = Schwurbler_DEF_ButtonController_Amount;
+     const int pins[Schwurbler_DEF_ButtonController_Amount] = Schwurbler_DEF_ButtonController_Pins;
+     const int midiKeys[Schwurbler_DEF_ButtonController_Amount] = Schwurbler_DEF_ButtonController_Keys;
+     Bounce buttons[Schwurbler_DEF_ButtonController_Amount];
+     MidiTriggerCallbackHandler midiTriggerCallback;
+     const uint8_t kBounceTime = Schwurbler_DEF_ButtonController_BounceTime;
+   
+    public:
+     int getAmount();
+   
+     int getPin(int identifier);
+   
+     void handleMidiTriggerCallback(
+         MidiTriggerCallbackHandler midiTriggerCallback);
+   
+     void getData();
+   };

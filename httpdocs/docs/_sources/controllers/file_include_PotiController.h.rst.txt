@@ -1,0 +1,61 @@
+
+.. _file_include_PotiController.h:
+
+File PotiController.h
+=====================
+
+|exhale_lsh| :ref:`Parent directory <dir_include>` (``include``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/PotiController.h``)
+-----------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_PotiController.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Arduino.h``
+
+- ``ResponsiveAnalogRead.h``
+
+- ``SchwurblerController.h`` (:ref:`file_include_SchwurblerController.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_src_PotiController.cpp`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_poti_controller`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef__poti_controller_8h_1aa0327df0b7a0a98d6f57e3dc43c5b432`
+

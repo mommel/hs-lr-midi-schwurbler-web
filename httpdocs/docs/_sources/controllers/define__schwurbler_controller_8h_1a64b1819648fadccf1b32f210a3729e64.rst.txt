@@ -1,0 +1,13 @@
+.. _exhale_define__schwurbler_controller_8h_1a64b1819648fadccf1b32f210a3729e64:
+
+Define Schwurbler_DEF_ButtonController_TriggerVelocity
+======================================================
+
+- Defined in :ref:`file_include_SchwurblerController.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: Schwurbler_DEF_ButtonController_TriggerVelocity

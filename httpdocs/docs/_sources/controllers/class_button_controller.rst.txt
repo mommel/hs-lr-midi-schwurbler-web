@@ -1,0 +1,16 @@
+.. _exhale_class_class_button_controller:
+
+Class ButtonController
+======================
+
+- Defined in :ref:`file_include_ButtonController.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: ButtonController
+   :members:
+   :protected-members:
+   :undoc-members:

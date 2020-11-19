@@ -1,0 +1,13 @@
+.. _exhale_define__schwurbler_controller_8h_1ad1095bf574751277798210992e514cfb:
+
+Define Schwurbler_DEF_PotiController_Amount
+===========================================
+
+- Defined in :ref:`file_include_SchwurblerController.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: Schwurbler_DEF_PotiController_Amount

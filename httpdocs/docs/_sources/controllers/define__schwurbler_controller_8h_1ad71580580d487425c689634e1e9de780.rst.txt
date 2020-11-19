@@ -1,0 +1,13 @@
+.. _exhale_define__schwurbler_controller_8h_1ad71580580d487425c689634e1e9de780:
+
+Define Schwurbler_DEF_ButtonController_BounceTime
+=================================================
+
+- Defined in :ref:`file_include_SchwurblerController.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: Schwurbler_DEF_ButtonController_BounceTime

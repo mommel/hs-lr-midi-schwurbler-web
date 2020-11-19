@@ -1,0 +1,16 @@
+.. _exhale_class_class_schwurbler_controller:
+
+Class SchwurblerController
+==========================
+
+- Defined in :ref:`file_src_SchwurblerController.cpp`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SchwurblerController
+   :members:
+   :protected-members:
+   :undoc-members:

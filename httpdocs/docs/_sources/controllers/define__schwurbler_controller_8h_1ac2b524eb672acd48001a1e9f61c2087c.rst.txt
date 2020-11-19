@@ -1,0 +1,13 @@
+.. _exhale_define__schwurbler_controller_8h_1ac2b524eb672acd48001a1e9f61c2087c:
+
+Define Schwurbler_DEF_arrayCount
+================================
+
+- Defined in :ref:`file_include_SchwurblerController.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: Schwurbler_DEF_arrayCount

@@ -1,0 +1,16 @@
+.. _exhale_class_class_rotary_controller:
+
+Class RotaryController
+======================
+
+- Defined in :ref:`file_include_RotaryController.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: RotaryController
+   :members:
+   :protected-members:
+   :undoc-members:

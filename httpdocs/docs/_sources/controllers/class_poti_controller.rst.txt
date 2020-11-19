@@ -1,0 +1,16 @@
+.. _exhale_class_class_poti_controller:
+
+Class PotiController
+====================
+
+- Defined in :ref:`file_include_PotiController.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: PotiController
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,56 @@
+
+.. _program_listing_file_include_RotaryController.h:
+
+Program Listing for File RotaryController.h
+===========================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_include_RotaryController.h>` (``include/RotaryController.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #pragma once
+   #define Schwurbler_DEF_RotaryEncoderController_Active
+   #include <SchwurblerController.h> // Definitionsheader
+   #include <Encoder.h>
+   
+   #ifndef ARDUINO
+   #include "Arduino.h" // Arduino Header
+   #endif // ARDUINO
+   // typedef struct RotaryEncoder SchwurblerRotaryEncoder;
+   
+   typedef void (*MidiValueChangeCallbackHandler)(int, byte);
+   
+   class RotaryController {
+    public:
+     RotaryController() {
+       for (int i = 0; i <= Schwurbler_DEF_RotaryEncoderController_Amount; i++) {
+         this->rotaryPositionStore[i] = -999;
+         this->rotaryEncoder[i] = new Encoder(this->getPin(i), this->getPin2(i));
+       };
+     }
+   
+     ~RotaryController() {}
+   
+    private:
+     const uint8_t kAmount = Schwurbler_DEF_RotaryEncoderController_Amount;
+     const int pins[Schwurbler_DEF_RotaryEncoderController_Amount] = Schwurbler_DEF_RotaryEncoderController_Pins;
+     const int pins2[Schwurbler_DEF_RotaryEncoderController_Amount] = Schwurbler_DEF_RotaryEncoderController_Pins2;
+     const int midiKeys[Schwurbler_DEF_RotaryEncoderController_Amount] = Schwurbler_DEF_RotaryEncoderController_Keys;
+     int rotaryPositionStore[Schwurbler_DEF_RotaryEncoderController_Amount];
+     Encoder *rotaryEncoder[Schwurbler_DEF_RotaryEncoderController_Amount];
+     MidiValueChangeCallbackHandler midiValueChangeCallback;
+   
+    public:
+     int getAmount();
+   
+     int getPin(int identifier);
+   
+     int getPin2(int identifier);
+   
+     void handleMidiValueChangeCallback(MidiValueChangeCallbackHandler _midiValueChangeCallback);
+   
+     void getData();
+   };

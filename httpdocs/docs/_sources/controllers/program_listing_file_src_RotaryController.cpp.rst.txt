@@ -1,0 +1,44 @@
+
+.. _program_listing_file_src_RotaryController.cpp:
+
+Program Listing for File RotaryController.cpp
+=============================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_src_RotaryController.cpp>` (``src/RotaryController.cpp``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #include "RotaryController.h"
+   
+   int RotaryController::getAmount() {
+     return this->kAmount;
+   }
+   
+   int RotaryController::getPin(int identifier) {
+     return this->pins[identifier];
+   }
+   
+   int RotaryController::getPin2(int identifier) {
+     return this->pins2[identifier];
+   }
+   
+   void RotaryController::handleMidiValueChangeCallback(
+       MidiValueChangeCallbackHandler _midiValueChangeCallback) {
+     this->midiValueChangeCallback = _midiValueChangeCallback;
+   }
+   
+   void RotaryController::getData() {
+     for (int rotaryIdentifier = 0; rotaryIdentifier < this->kAmount;
+          rotaryIdentifier++) {
+            Encoder interimEnc = *(this->rotaryEncoder)[rotaryIdentifier];
+       long newPos = interimEnc.read();
+       if (newPos != this->rotaryPositionStore[rotaryIdentifier]) {
+         this->rotaryPositionStore[rotaryIdentifier] = newPos;
+         this->midiValueChangeCallback(this->midiKeys[rotaryIdentifier], newPos);
+       }
+     }
+   }
+   

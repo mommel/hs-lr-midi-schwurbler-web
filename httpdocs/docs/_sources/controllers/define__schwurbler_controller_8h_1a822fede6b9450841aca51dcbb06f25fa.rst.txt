@@ -1,0 +1,13 @@
+.. _exhale_define__schwurbler_controller_8h_1a822fede6b9450841aca51dcbb06f25fa:
+
+Define Schwurbler_DEF_PotiController_Pins
+=========================================
+
+- Defined in :ref:`file_include_SchwurblerController.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: Schwurbler_DEF_PotiController_Pins

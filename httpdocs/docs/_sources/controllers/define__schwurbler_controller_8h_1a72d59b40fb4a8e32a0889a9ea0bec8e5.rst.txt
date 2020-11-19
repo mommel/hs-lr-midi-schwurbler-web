@@ -1,0 +1,13 @@
+.. _exhale_define__schwurbler_controller_8h_1a72d59b40fb4a8e32a0889a9ea0bec8e5:
+
+Define Schwurbler_DEF_SendTo_MidiChannel
+========================================
+
+- Defined in :ref:`file_include_SchwurblerController.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: Schwurbler_DEF_SendTo_MidiChannel

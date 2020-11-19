@@ -1,0 +1,44 @@
+
+.. _program_listing_file_src_ButtonController.cpp:
+
+Program Listing for File ButtonController.cpp
+=============================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_src_ButtonController.cpp>` (``src/ButtonController.cpp``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #include "ButtonController.h"
+   
+   int ButtonController::getAmount() {
+     return this->kAmount;
+   }
+   
+   int ButtonController::getPin(int identifier) {
+     return this->pins[identifier];
+   }
+   
+   void ButtonController::handleMidiTriggerCallback(
+       MidiTriggerCallbackHandler midiTriggerCallback) {
+     this->midiTriggerCallback = midiTriggerCallback;
+   }
+   
+   void ButtonController::getData() {
+     for (int buttonIdentifier = 0; buttonIdentifier < this->kAmount;
+          buttonIdentifier++) {
+         this->buttons[buttonIdentifier].update();
+         if (this->buttons[buttonIdentifier].fallingEdge() ||
+             this->buttons[buttonIdentifier].risingEdge()) {
+   
+           int midiValue = this->midiKeys[buttonIdentifier];
+   
+           bool is_active = (this->buttons[buttonIdentifier].fallingEdge() &&
+                             !this->buttons[buttonIdentifier].risingEdge());
+           Serial.println("callback");
+           this->midiTriggerCallback(midiValue, is_active);
+         }
+     }
+   }

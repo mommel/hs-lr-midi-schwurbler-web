@@ -1,0 +1,281 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>File SchwurblerController.h &mdash; Schwurbler 1.0.3 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/collapsible-lists/css/tree_view.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+        <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Schwurbler
+          
+
+          
+            
+            <img src="../_static/hscommunity_logo.jpg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Schwurbler 1.0.3 Reference Manual</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="library_root.html">SchwurblerControllers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="class_button_controller.html">Class ButtonController</a></li>
+<li class="toctree-l1"><a class="reference internal" href="class_poti_controller.html">Class PotiController</a></li>
+<li class="toctree-l1"><a class="reference internal" href="class_rotary_controller.html">Class RotaryController</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../examples/index.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/controlbutton.html">ControlButton</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/controlpoti.html">ControlPoti</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/controlrotary.html">ControlRotary</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Project Status</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roadmap.html">Roadmap</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Community</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../team.html">Team</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Schwurbler</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>File SchwurblerController.h</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/controllers/file_include_SchwurblerController.h.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="file-schwurblercontroller-h">
+<span id="file-include-schwurblercontroller-h"></span><h1>File SchwurblerController.h<a class="headerlink" href="#file-schwurblercontroller-h" title="Permalink to this headline">¶</a></h1>
+<p>↰ <a class="reference internal" href="dir_include.html#dir-include"><span class="std std-ref">Parent directory</span></a> (<code class="docutils literal notranslate"><span class="pre">include</span></code>)</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#definition-include-schwurblercontroller-h" id="id1">Definition (<code class="docutils literal notranslate"><span class="pre">include/SchwurblerController.h</span></code>)</a></p></li>
+<li><p><a class="reference internal" href="#includes" id="id2">Includes</a></p></li>
+<li><p><a class="reference internal" href="#included-by" id="id3">Included By</a></p></li>
+<li><p><a class="reference internal" href="#defines" id="id4">Defines</a></p></li>
+</ul>
+</div>
+<div class="section" id="definition-include-schwurblercontroller-h">
+<h2>Definition (<code class="docutils literal notranslate"><span class="pre">include/SchwurblerController.h</span></code>)<a class="headerlink" href="#definition-include-schwurblercontroller-h" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="program_listing_file_include_SchwurblerController.h.html">Program Listing for File SchwurblerController.h</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="includes">
+<h2>Includes<a class="headerlink" href="#includes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Arduino.h</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="included-by">
+<h2>Included By<a class="headerlink" href="#included-by" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="file_include_ButtonController.h.html#file-include-buttoncontroller-h"><span class="std std-ref">File ButtonController.h</span></a></p></li>
+<li><p><a class="reference internal" href="file_include_PotiController.h.html#file-include-poticontroller-h"><span class="std std-ref">File PotiController.h</span></a></p></li>
+<li><p><a class="reference internal" href="file_include_RotaryController.h.html#file-include-rotarycontroller-h"><span class="std std-ref">File RotaryController.h</span></a></p></li>
+<li><p><a class="reference internal" href="file_src_SchwurblerController.cpp.html#file-src-schwurblercontroller-cpp"><span class="std std-ref">File SchwurblerController.cpp</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="defines">
+<h2>Defines<a class="headerlink" href="#defines" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="define__schwurbler_controller_8h_1ac2b524eb672acd48001a1e9f61c2087c.html#exhale-define-schwurbler-controller-8h-1ac2b524eb672acd48001a1e9f61c2087c"><span class="std std-ref">Define Schwurbler_DEF_arrayCount</span></a></p></li>
+<li><p><a class="reference internal" href="define__schwurbler_controller_8h_1afd5497cce3ca99426986a9b824af3df5.html#exhale-define-schwurbler-controller-8h-1afd5497cce3ca99426986a9b824af3df5"><span class="std std-ref">Define Schwurbler_DEF_ButtonController_Active</span></a></p></li>
+<li><p><a class="reference internal" href="define__schwurbler_controller_8h_1ab9e00ebd3c6d5cd9d607b5b146d13e0d.html#exhale-define-schwurbler-controller-8h-1ab9e00ebd3c6d5cd9d607b5b146d13e0d"><span class="std std-ref">Define Schwurbler_DEF_ButtonController_Amount</span></a></p></li>
+<li><p><a class="reference internal" href="define__schwurbler_controller_8h_1ad71580580d487425c689634e1e9de780.html#exhale-define-schwurbler-controller-8h-1ad71580580d487425c689634e1e9de780"><span class="std std-ref">Define Schwurbler_DEF_ButtonController_BounceTime</span></a></p></li>
+<li><p><a class="reference internal" href="define__schwurbler_controller_8h_1a7250eda3cb226d3c68356c78f4546818.html#exhale-define-schwurbler-controller-8h-1a7250eda3cb226d3c68356c78f4546818"><span class="std std-ref">Define Schwurbler_DEF_ButtonController_Keys</span></a></p></li>
+<li><p><a class="reference internal" href="define__schwurbler_controller_8h_1a775c6fbb5cdb6180eec9e914d0c3c876.html#exhale-define-schwurbler-controller-8h-1a775c6fbb5cdb6180eec9e914d0c3c876"><span class="std std-ref">Define Schwurbler_DEF_ButtonController_Pins</span></a></p></li>
+<li><p><a class="reference internal" href="define__schwurbler_controller_8h_1a64b1819648fadccf1b32f210a3729e64.html#exhale-define-schwurbler-controller-8h-1a64b1819648fadccf1b32f210a3729e64"><span class="std std-ref">Define Schwurbler_DEF_ButtonController_TriggerVelocity</span></a></p></li>
+<li><p><a class="reference internal" href="define__schwurbler_controller_8h_1ae24b1f95843c0746735e760bff3c3983.html#exhale-define-schwurbler-controller-8h-1ae24b1f95843c0746735e760bff3c3983"><span class="std std-ref">Define Schwurbler_DEF_PotiController_Active</span></a></p></li>
+<li><p><a class="reference internal" href="define__schwurbler_controller_8h_1ad1095bf574751277798210992e514cfb.html#exhale-define-schwurbler-controller-8h-1ad1095bf574751277798210992e514cfb"><span class="std std-ref">Define Schwurbler_DEF_PotiController_Amount</span></a></p></li>
+<li><p><a class="reference internal" href="define__schwurbler_controller_8h_1a9688edf1d66387b2f3f8f7aa56c75c92.html#exhale-define-schwurbler-controller-8h-1a9688edf1d66387b2f3f8f7aa56c75c92"><span class="std std-ref">Define Schwurbler_DEF_PotiController_Keys</span></a></p></li>
+<li><p><a class="reference internal" href="define__schwurbler_controller_8h_1a822fede6b9450841aca51dcbb06f25fa.html#exhale-define-schwurbler-controller-8h-1a822fede6b9450841aca51dcbb06f25fa"><span class="std std-ref">Define Schwurbler_DEF_PotiController_Pins</span></a></p></li>
+<li><p><a class="reference internal" href="define__schwurbler_controller_8h_1a72d59b40fb4a8e32a0889a9ea0bec8e5.html#exhale-define-schwurbler-controller-8h-1a72d59b40fb4a8e32a0889a9ea0bec8e5"><span class="std std-ref">Define Schwurbler_DEF_SendTo_MidiChannel</span></a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Manuel Braun
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

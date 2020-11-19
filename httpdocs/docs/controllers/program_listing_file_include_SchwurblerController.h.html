@@ -1,0 +1,340 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Program Listing for File SchwurblerController.h &mdash; Schwurbler 1.0.3 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/collapsible-lists/css/tree_view.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+        <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Schwurbler
+          
+
+          
+            
+            <img src="../_static/hscommunity_logo.jpg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Schwurbler 1.0.3 Reference Manual</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="library_root.html">SchwurblerControllers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="class_button_controller.html">Class ButtonController</a></li>
+<li class="toctree-l1"><a class="reference internal" href="class_poti_controller.html">Class PotiController</a></li>
+<li class="toctree-l1"><a class="reference internal" href="class_rotary_controller.html">Class RotaryController</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../examples/index.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/controlbutton.html">ControlButton</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/controlpoti.html">ControlPoti</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/controlrotary.html">ControlRotary</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Project Status</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roadmap.html">Roadmap</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Community</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../team.html">Team</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Schwurbler</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Program Listing for File SchwurblerController.h</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/controllers/program_listing_file_include_SchwurblerController.h.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="program-listing-for-file-schwurblercontroller-h">
+<span id="program-listing-file-include-schwurblercontroller-h"></span><h1>Program Listing for File SchwurblerController.h<a class="headerlink" href="#program-listing-for-file-schwurblercontroller-h" title="Permalink to this headline">¶</a></h1>
+<p>↰ <a class="reference internal" href="file_include_SchwurblerController.h.html#file-include-schwurblercontroller-h"><span class="std std-ref">Return to documentation for file</span></a> (<code class="docutils literal notranslate"><span class="pre">include/SchwurblerController.h</span></code>)</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#pragma once</span>
+
+<span class="cp">#ifndef ARDUINO</span>
+<span class="cp">#include</span> <span class="cpf">&quot;Arduino.h&quot;</span><span class="c1"> // Arduino Header</span><span class="cp"></span>
+<span class="cp">#endif </span><span class="c1">// ARDUINO</span>
+<span class="cp">#define Schwurbler_DEF_ButtonController_Active</span>
+<span class="cp">#define Schwurbler_DEF_PotiController_Active</span>
+
+<span class="c1">// Set&#39;s the Midi Channel - Der Schwurbler uses to communicate</span>
+<span class="cp">#ifndef Schwurbler_DEF_SendTo_MidiChannel</span>
+<span class="cp">#define Schwurbler_DEF_SendTo_MidiChannel                       7</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_SendTo_MidiChannel</span>
+
+<span class="c1">// ------------------------------------          ButtonController Definitions          ------------------------------------ //</span>
+<span class="c1">// If active is defined all needed  will be checked</span>
+<span class="cp">#ifdef Schwurbler_DEF_ButtonController_Active</span>
+
+<span class="cp">#ifndef Schwurbler_DEF_ButtonController_Amount</span>
+<span class="c1">// Set&#39;s the Pins for the Buttons</span>
+<span class="cp">#define Schwurbler_DEF_ButtonController_Amount                  14</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_ButtonController_Amount</span>
+
+<span class="cp">#ifndef Schwurbler_DEF_ButtonController_Pins</span>
+<span class="c1">// Set&#39;s the Pins for the Buttons</span>
+<span class="cp">#define Schwurbler_DEF_ButtonController_Pins                    { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14}</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_ButtonController_Pins</span>
+
+<span class="cp">#ifndef Schwurbler_DEF_ButtonController_Keys</span>
+<span class="c1">// Set&#39;s the MidiKeys for the Buttons</span>
+<span class="cp">#define Schwurbler_DEF_ButtonController_Keys                    { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14}</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_ButtonController_Keys</span>
+
+<span class="cp">#ifndef Schwurbler_DEF_ButtonController_BounceTime</span>
+<span class="c1">// Set&#39;s the time each button gets debounced</span>
+<span class="c1">// The sensor will check for falling and raising edges</span>
+<span class="c1">// But as the signal isn&#39;t always top notch</span>
+<span class="c1">// we need to debounce it to get valid status changes</span>
+<span class="cp">#define Schwurbler_DEF_ButtonController_BounceTime              7</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_ButtonController_BounceTime</span>
+
+<span class="cp">#ifndef Schwurbler_DEF_ButtonController_TriggerVelocity</span>
+<span class="c1">// Set&#39;s the velocity the ON Trigger gets send with over MIDI</span>
+<span class="cp">#define Schwurbler_DEF_ButtonController_TriggerVelocity         99</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_ButtonController_TriggerVelocity</span>
+
+
+<span class="c1">// ------------------------------------          ButtonController Definitions          ------------------------------------ //</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_ButtonController_Active</span>
+
+<span class="c1">// ------------------------------------            PotiController Definitions          ------------------------------------ //</span>
+<span class="c1">// If active is defined all needed  will be checked</span>
+<span class="cp">#ifdef Schwurbler_DEF_PotiController_Active</span>
+
+<span class="cp">#ifndef Schwurbler_DEF_PotiController_Amount</span>
+<span class="c1">// Set&#39;s the Pins for the Buttons</span>
+<span class="cp">#define Schwurbler_DEF_PotiController_Amount                  9</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_PotiController_Amount</span>
+
+<span class="cp">#ifndef Schwurbler_DEF_PotiController_Pins</span>
+<span class="c1">// Set&#39;s the Pins for the Buttons</span>
+<span class="cp">#define Schwurbler_DEF_PotiController_Pins                    { A9, A8, A7, A6, A5, A4, A3, A2, A1 }</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_PotiController_Pins</span>
+
+<span class="cp">#ifndef Schwurbler_DEF_PotiController_Keys</span>
+<span class="c1">// Set&#39;s the MidiKeys for the Buttons</span>
+<span class="cp">#define Schwurbler_DEF_PotiController_Keys                    { 21, 22, 23, 25, 26, 27, 28, 30, 31 }</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_PotiController_Keys</span>
+
+<span class="c1">// ------------------------------------            PotiController Definitions          ------------------------------------ //</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_PotiController_Active</span>
+
+<span class="c1">// ------------------------------------            PotiController Definitions          ------------------------------------ //</span>
+<span class="c1">// If active is defined all needed  will be checked</span>
+<span class="cp">#ifdef Schwurbler_DEF_RotaryEncoderController_Active</span>
+
+<span class="cp">#ifndef Schwurbler_DEF_RotaryEncoderController_Amount</span>
+<span class="c1">// Set&#39;s the Pins for the Buttons</span>
+<span class="cp">#define Schwurbler_DEF_RotaryEncoderController_Amount                  4</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_RotaryEncoderController_Amount</span>
+
+<span class="cp">#ifndef Schwurbler_DEF_RotaryEncoderController_Pins</span>
+<span class="c1">// Set&#39;s the Pins for the Buttons</span>
+<span class="cp">#define Schwurbler_DEF_RotaryEncoderController_Pins                    { 23, 21, 19, 17 }</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_RotaryEncoderController_Pins</span>
+
+<span class="cp">#ifndef Schwurbler_DEF_RotaryEncoderController_Pins2</span>
+<span class="c1">// Set&#39;s the Pins for the Buttons2</span>
+<span class="cp">#define Schwurbler_DEF_RotaryEncoderController_Pins2                   { 22, 20, 18, 16 }</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_RotaryEncoderController_Pins2</span>
+
+<span class="cp">#ifndef Schwurbler_DEF_RotaryEncoderController_Keys</span>
+<span class="c1">// Set&#39;s the MidiKeys for the Buttons</span>
+<span class="cp">#define Schwurbler_DEF_RotaryEncoderController_Keys                    { 21, 22, 23, 25 }</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_RotaryEncoderController_Keys</span>
+
+
+<span class="c1">// ------------------------------------            PotiController Definitions          ------------------------------------ //</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_RotaryEncoderController_Active</span>
+<span class="c1">//                                                                                                                          //</span>
+<span class="c1">//                                                                                                                          //</span>
+<span class="c1">//                                                                                                                          //</span>
+<span class="c1">// ------------------------------------               HELPER Definitions               ------------------------------------ //</span>
+<span class="cp">#ifndef Schwurbler_DEF_arrayCount</span>
+<span class="cp">#define Schwurbler_DEF_arrayCount(x) (sizeof(x) / sizeof(x)[0])</span>
+<span class="cp">#endif </span><span class="c1">// Schwurbler_DEF_arrayCount</span>
+<span class="c1">// ------------------------------------               HELPER Definitions               ------------------------------------ //</span>
+</pre></div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Manuel Braun
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

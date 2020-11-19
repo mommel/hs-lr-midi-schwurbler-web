@@ -1,0 +1,68 @@
+
+.. _file_include_RotaryController.h:
+
+File RotaryController.h
+=======================
+
+|exhale_lsh| :ref:`Parent directory <dir_include>` (``include``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/RotaryController.h``)
+-------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_RotaryController.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Arduino.h``
+
+- ``Encoder.h``
+
+- ``SchwurblerController.h`` (:ref:`file_include_SchwurblerController.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_src_RotaryController.cpp`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_rotary_controller`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define__rotary_controller_8h_1a5c1198886b719d81d0d93e061b1db204`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef__rotary_controller_8h_1aa0327df0b7a0a98d6f57e3dc43c5b432`
+
